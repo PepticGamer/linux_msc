@@ -63,7 +63,7 @@ start_server() {
 
     # Switch Java version based on server version
     case "$version" in
-        "1.21.1")
+        "1.21.1"|"1.21.4")
             switch_to_java21
             ;;
         "1.20.4"|"1.20.1")
